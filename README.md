@@ -27,3 +27,7 @@ USB 를 뽑으면 시계가 워치페이스를 다시 읽습니다. 시계에서
 
 USB 로 넣은 앱은 Garmin Connect 폰 앱에 설정 화면이 뜨지 않습니다. 설정은 시계 안 메뉴(시계 모드 → Nyang Nap → 설정)에서 합니다:
 Version(하단 두 줄) / Cat(고양이) / Time(24h·12h) / Layout(Flat·Round) / Rows(오른쪽 열 항목) / Hours(시간대 경계).
+
+## 건의 · 문제 신고
+
+바꾸고 싶은 점이나 이상한 동작은 [Issues](https://github.com/yonadora/nyang-nap-releases/issues/new/choose) 에 올려 주세요. "건의 / 기능 요청"과 "문제 신고" 양식이 있습니다. 글을 쓰려면 GitHub 계정(무료)이 필요하고, 다운로드는 계정 없이 됩니다.
