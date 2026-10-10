@@ -1,0 +1,38 @@
+name: 문제 신고
+description: 화면이 이상하거나 동작이 안 될 때
+title: "[문제] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 무엇이 어떻게 이상한가요?
+      placeholder: 예) 12h 모드에서 날짜 줄 AM 글자가 겹쳐 보임
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: 기기
+      options:
+        - Forerunner 265
+        - Forerunner 265S
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 버전 (설정 메뉴 맨 아래 Build 줄)
+      placeholder: 예) 1.1.14
+    validations:
+      required: true
+  - type: input
+    id: settings
+    attributes:
+      label: 설정 (Version / Cat / Time / Layout / Rows 중 관련된 것)
+      placeholder: 예) Lite, 달자, 12h, Round
+  - type: textarea
+    id: photo
+    attributes:
+      label: 시계 화면 사진 (선택)
+      description: 사진을 끌어다 놓으면 첨부됩니다.
