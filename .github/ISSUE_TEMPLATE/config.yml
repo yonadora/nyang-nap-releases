@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 최신 버전 받기
+    url: https://github.com/yonadora/nyang-nap-releases/releases/latest
+    about: 올리기 전에 최신 버전에서도 같은지 확인해 주세요.
