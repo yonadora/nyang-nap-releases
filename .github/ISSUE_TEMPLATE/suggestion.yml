@@ -1,0 +1,31 @@
+name: 건의 / 기능 요청
+description: 이런 기능이 있으면 좋겠다, 이 부분을 바꿔 달라
+title: "[건의] "
+labels: ["suggestion"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 어떤 점을 바꾸거나 추가하고 싶나요?
+      placeholder: 예) Round 배치에서 날짜 줄 곡선을 조금 더 완만하게
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: 기기
+      options:
+        - Forerunner 265
+        - Forerunner 265S
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 쓰고 있는 버전 (설정 메뉴 맨 아래 Build 줄)
+      placeholder: 예) 1.1.14
+  - type: textarea
+    id: extra
+    attributes:
+      label: 참고 (선택)
+      description: 사진이나 그림을 끌어다 놓으면 첨부됩니다.
